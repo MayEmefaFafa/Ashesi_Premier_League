@@ -1,3 +1,9 @@
+// Name: Mavis Marfo
+// Lecturer: Daniel Addo
+// Topic: Ashesi Premier League
+// Date: 22/09/2025
+
+
 import java.util.Scanner;
 public class PlayerSelection {
     public static void main (String[] args){
@@ -51,19 +57,6 @@ public class PlayerSelection {
         boolean attacker = (jerseyNumber==7|| jerseyNumber == 9 ||  jerseyNumber == 10 || jerseyNumber == 11);
         boolean eligible= (age>= 18 && age <= 35 && weightInInteger<90 );
         boolean primePlayer= (age>=20 && age <=30);
-
-
-
-
-
-
-
-
-
-
-
-
-
 
         System.out.println("Player : [" + name+ "]");
         if (age< 20){
